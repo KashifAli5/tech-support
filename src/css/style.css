@@ -96,3 +96,10 @@ img.profile_nav_img {
 .footer_section_main {
 	clear: both;
 }
+.footer_copy_right_main {
+    text-align: right;
+    font-size: 16px;
+}
+.footer_copy_right_main.row {
+    margin: 0px;
+}
