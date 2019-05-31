@@ -1,0 +1,98 @@
+/*********   Header Styling STart ****/
+.header-section-right-side {
+    width: 100%;
+    background-image: url(../images/home_header_right.png);
+    height: 450px;
+    background-size: cover;
+}
+.header-section-heading {
+	position: relative;
+}
+.header_image.row {
+	margin: 0px;
+}
+
+@-webkit-keyframes changeColors {
+	0% {
+	    background-position: 0 50%;
+	}
+	50% {
+	    background-position: 100% 50%;
+	}
+	100% {
+	    background-position: 0 50%;
+	}
+}
+
+.searchbar{
+	height: 60px;
+	background-color: #353b48;
+	border-radius: 30px;
+	padding: 10px;
+}
+.search_input{
+	color: white;
+	border: 0;
+	outline: 0;
+	background: none;
+	width: 0;
+	caret-color:transparent;
+	line-height: 40px;
+	transition: width 0.4s linear;
+}
+.searchbar:hover > .search_input{
+	padding: 0 10px;
+	width: 450px;
+	caret-color:green;
+	transition: width 0.4s linear;
+}
+.searchbar:hover > .search_icon{
+	background: white;
+	color: green;
+	width: 45px;
+}
+.search_icon{
+	height: 40px;
+	width: 40px;
+	float: right;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	color:white;
+}
+
+/*********   Header Styling End ****/
+/*********   NavBar Styling Start ****/
+img.profile_nav_img {
+    width: 50px;
+    border: 1px solid;
+}
+.header_section_main li a,
+.header_section_main .navbar-brand {
+	color: #000 !important;
+}
+
+
+/*********   Header Styling End ****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*********   Footer Styling STart ****/
+
+.footer_section_main {
+	clear: both;
+}
