@@ -42,7 +42,7 @@
 }
 .searchbar:hover > .search_input{
 	padding: 0 10px;
-	width: 450px;
+	width: 300px;
 	caret-color:green;
 	transition: width 0.4s linear;
 }
@@ -95,6 +95,11 @@ img.profile_nav_img {
 
 .footer_section_main {
 	clear: both;
+	background-color: #242729;
+    color: white;
+}
+.footer_menu_main {
+    margin: 0px;
 }
 .footer_copy_right_main {
     text-align: right;
@@ -102,4 +107,7 @@ img.profile_nav_img {
 }
 .footer_copy_right_main.row {
     margin: 0px;
+}
+.footer_menu_main ul li {
+	list-style: none;
 }
