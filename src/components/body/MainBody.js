@@ -8,10 +8,10 @@ import Features from './front/features';
 const MainAppBody = () => {
 	return (
 		<div>
-			
+			<Features />
 			<Cards />
 			
-			<Features />
+			
 		</div>
 	)
 }

@@ -1,4 +1,7 @@
 /*********   Header Styling STart ****/
+.row {
+	margin: 0px;
+}
 .header-section-right-side {
     width: 100%;
     background-image: url(../images/home_header_right.png);
@@ -107,6 +110,19 @@ element.style {
 .feature-first-left abbr {
 	text-decoration: none;
 }
+.feature-second-left img {
+    width: 100%;
+}
+.feature-second-right abbr {
+    text-decoration: none;
+}
+.features-second-section {
+	margin-top: 100px;
+}
+
+
+
+
 /*********   Header Styling End ****/
 /*********   Body Styling Start ****/
 

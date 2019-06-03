@@ -27,6 +27,33 @@ const Features = () => {
 					</div>
 				</div>
 			</div>
+		{/* First feature SEction */}
+		<div className="row features-second-section">
+				<div className="col-lg-6 col-md-6 feature-second-left">
+					<div className="left-section-image">
+						<img src="images/front-page/drawkit.jpg" />
+					</div>
+					
+				</div>
+				<div className="col-lg-6 col-md-6 feature-second-right">
+					<div className="text-center mt-5">
+						<div className="display-3"><abbr title="We Provide Best value services"> Value services </abbr></div>
+						<br />
+						<div className="h3"> 1914 translation by H. Rackham</div>
+						<br />
+						<br />
+
+						<p className="lead"> 
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+							ut aliquip ex ea commodo consequat.
+						</p> 
+					</div>
+				</div>
+			</div>
+
+
 		</div>
 	)
 }
