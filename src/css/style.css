@@ -64,6 +64,8 @@
 
 /*********   Header Styling End ****/
 /*********   NavBar Styling Start ****/
+
+/* Cards component */
 img.profile_nav_img {
     width: 50px;
     border: 1px solid;
@@ -72,9 +74,6 @@ img.profile_nav_img {
 .header_section_main .navbar-brand {
 	color: #000 !important;
 }
-/*.row.card-main {
-    text-align: center;
-}*/
 .row.card-main .cards_images img {
     width: 30% !important;
 }
@@ -88,16 +87,26 @@ element.style {
     border-radius: 5px;
 }
 .row.card-main .cards_images img {
-    width: 30% !important;
-    height: 110px;
+    width: 60% !important;
+    height: 150px;
     padding-top: 10px;
 }
 .number-of-user-icon img {
     width: 25px;
 }
-
-
-
+/* Feature Component */
+.features-first-section {
+    margin: 0px;
+}
+.right-section-image img {
+    width: 100%;
+}
+.feature-section-main {
+	margin-top: 100px;
+}
+.feature-first-left abbr {
+	text-decoration: none;
+}
 /*********   Header Styling End ****/
 /*********   Body Styling Start ****/
 

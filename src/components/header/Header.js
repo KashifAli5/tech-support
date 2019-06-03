@@ -13,15 +13,15 @@ const Header = () => {
 					
 					<div className="header-section-left-side col-lg-6 col-md-6">
 						<div className="header-left-side-section mt-5">
-							<h1 className="header-section-heading text-center">
+							<div className="header-section-heading text-center display-3">
 								Tech Suport
-							</h1>
+							</div>
 							<br />
 							<br /> 
 							<br /> 
-							<h3 className="text-center">
+							<div className="text-center h3">
 								Tomorrow is for the Taking
-							</h3>
+							</div>
 							
 	            			<SearchBar />
 
