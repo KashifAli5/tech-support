@@ -27,7 +27,8 @@ const Features = () => {
 					</div>
 				</div>
 			</div>
-		{/* First feature SEction */}
+		{/* Second feature SEction */}
+		<hr className="card_section_start_line"/>
 		<div className="row features-second-section">
 				<div className="col-lg-6 col-md-6 feature-second-left">
 					<div className="left-section-image">

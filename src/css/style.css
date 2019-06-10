@@ -84,10 +84,14 @@ img.profile_nav_img {
 element.style {
 }
 .card_main_div > div {
-	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 8px 8px 8px -2px #ccc, 0px 6px 8px 5px #ccc;
     border: 1px solid #D3D3D3;
     margin: 0px;
     border-radius: 5px;
+}
+.card_main_div:hover {
+	box-shadow: none;
+	cursor: pointer;
 }
 .row.card-main .cards_images img {
     width: 60% !important;
