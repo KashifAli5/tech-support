@@ -130,7 +130,11 @@ element.style {
 .card-main {
     margin: 0px;
 }
-
+.card_section_start_line {
+    margin-top: 150px;
+    margin-bottom: 70px;
+    width: 70%;
+}
 
 
 

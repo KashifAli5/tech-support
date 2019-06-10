@@ -127,6 +127,7 @@ class Cards extends Component {
 	render () {
 		return (
 			<div>
+				<hr className="card_section_start_line"/>
 				<div className="row card-main mt-5 mb-5">
 					{this.state.categories.map((category, key) => 
 						<div key={key} className="col-lg-3 col-md-3 card_main_div mb-4">
